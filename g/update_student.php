@@ -11,11 +11,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>พิมพ์จันทร์ แสนโสม</title>
+<title>พรชัย ศรีลาดเลา</title>
 </head>
 
 <body>
-<h1>แก้ไขข้อมูลนิสิต -- พิมพ์จันทร์ แสนโสม (พิม)</h1>
+<h1>แก้ไขข้อมูลนิสิต -- พรชัย ศรีลาดเลา</h1>
 <form method="post" action="">
  รหัสนิสิต <input type="text" name="sid" autofocus required readonly
  value="<?php echo $data3['s_id'];?>"><br>

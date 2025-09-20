@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>พิมพ์จันทร์ แสนโสม</title>
+<title>พรชัย ศรีลาดเลา</title>
 </head>
 
 <body>
-<h1>แสดงข้อมูลคณะ -- พิมพ์จันทร์ แสนโสม (พิม)</h1>
+<h1>แสดงข้อมูลคณะ -- พรชัย ศรีลาดเลา (ฟลุ๊ค)</h1>
 <form method="post" action="">
  ชื่อคณะ <input type="text" name="fname" autofocus>
  <button type="submit" name="Submit">บันทึก</button>

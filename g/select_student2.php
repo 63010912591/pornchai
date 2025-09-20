@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>พิมพ์จันทร์ แสนโสม</title>
+<title>พรชัย ศรีลาดเลา</title>
 </head>
 
 <body>
-<h1>แสดงข้อมูลคณะ -- พิมพ์จันทร์ แสนโสม (พิมมี่)</h1>
+<h1>แสดงข้อมูลคณะ -- พรชัย ศรีลาดเลา</h1>
 
 <form method="post" action="">
 	คำค้น<input type="text" name="k" autofocus>
