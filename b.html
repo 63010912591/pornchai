@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>พรชัย ศรีลาดเลา (ฟลุ๊ค)</title>
+</head>
+
+<body>
+<h1>พรชัย ศรีลาดเลา (ฟลุ๊ค)</h1>
+<hr>
+<h1>การสร้างฟอร์มรับข้อมูลด้วย Tools ของ Dreamweaver </h1>
+<form name="form1" method="post" action="">
+  <p>
+  คำนำหน้าชื่อ<br>
+    <label>
+      <input type="radio" name="title" value="นาย" id="title_0">
+      นาย</label>
+    <br>
+    <label>
+      <input type="radio" name="title" value="นาง" id="title_1">
+      นาง</label>
+    <br>
+    <label>
+      <input type="radio" name="title" value="นางสาว" id="title_2">
+      นางสาว</label>
+    <br>
+  </p>
+  <p>
+    <label for="fullname">ชื่อ - สกุล</label>
+    <input type="text" name="fullname" id="fullname">
+  </p>
+  <br>
+
+  <label for= "age">อายุ</label>
+  <input type="number" min="1" max="100" name="age" id="age" required>
+  <br><br>
+  
+  <input type="submit" name="Submit" id="Submit" value="ลงทะเบียน">
+  <input type="reset" name="Reset" id="Reset" vallue="button" value="Reset">
+</form>
+</body>
+</html>

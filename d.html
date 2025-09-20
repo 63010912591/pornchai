@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>พรชัย ศรีลาดเลา(ฟลุ๊ค</title>
+</head>
+
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครสมาชิกชมรมคนรักสุนัข</title>
+    <!-- ลิงก์ไปที่ Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center">สมัครสมาชิกชมรมคนรักสุนัข</h1>
+
+        <form>
+            <!-- ชื่อผู้สมัคร -->
+            <div class="mb-3">
+                <label for="name" class="form-label">ชื่อ</label>
+                <input type="text" class="form-control" id="name" placeholder="กรุณากรอกชื่อ" required>
+            </div>
+
+            <!-- อีเมล -->
+            <div class="mb-3">
+                <label for="email" class="form-label">อีเมล</label>
+                <input type="email" class="form-control" id="email" placeholder="กรุณากรอกอีเมล" required>
+            </div>
+
+            <!-- เบอร์โทรศัพท์ -->
+            <div class="mb-3">
+                <label for="phone" class="form-label">เบอร์โทรศัพท์</label>
+                <input type="tel" class="form-control" id="phone" placeholder="กรุณากรอกเบอร์โทรศัพท์" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small class="form-text text-muted">โปรดกรอกเบอร์โทรในรูปแบบ 123-456-7890</small>
+            </div>
+
+            <!-- อายุ -->
+            <div class="mb-3">
+                <label for="age" class="form-label">อายุ</label>
+                <input type="number" class="form-control" id="age" placeholder="กรุณากรอกอายุ" required>
+            </div>
+
+            <!-- เพศ -->
+            <div class="mb-3">
+                <label for="gender" class="form-label">เพศ</label>
+                <select class="form-select" id="gender" required>
+                    <option value="" disabled selected>กรุณาเลือกเพศ</option>
+                    <option value="male">ชาย</option>
+                    <option value="female">หญิง</option>
+                    <option value="other">อื่นๆ</option>
+                </select>
+            </div>
+
+            <!-- ชื่อสุนัข -->
+            <div class="mb-3">
+                <label for="dog_name" class="form-label">ชื่อสุนัข</label>
+                <input type="text" class="form-control" id="dog_name" placeholder="กรุณากรอกชื่อสุนัข" required>
+            </div>
+
+            <!-- วันเกิด -->
+            <div class="mb-3">
+                <label for="dob" class="form-label">วันเกิด</label>
+                <input type="date" class="form-control" id="dob" required>
+            </div>
+
+            <!-- รหัสไปรษณีย์ -->
+            <div class="mb-3">
+                <label for="zipcode" class="form-label">รหัสไปรษณีย์</label>
+                <input type="text" class="form-control" id="zipcode" placeholder="กรุณากรอกรหัสไปรษณีย์" pattern="[0-9]{5}" required>
+                <small class="form-text text-muted">โปรดกรอกรหัสไปรษณีย์ 5 หลัก</small>
+            </div>
+
+            <!-- ประเภทสมาชิก -->
+            <div class="mb-3">
+                <label for="membership" class="form-label">ประเภทสมาชิก</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="membership" id="member_regular" value="regular" checked>
+                    <label class="form-check-label" for="member_regular">
+                        สมาชิกทั่วไป
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="membership" id="member_premium" value="premium">
+                    <label class="form-check-label" for="member_premium">
+                        สมาชิกพรีเมียม
+                    </label>
+                </div>
+            </div>
+
+            <!-- ความสนใจเพิ่มเติม -->
+            <div class="mb-3">
+                <label for="interest" class="form-label">ความสนใจเพิ่มเติม</label>
+                <textarea class="form-control" id="interest" rows="3" placeholder="กรุณากรอกความสนใจของคุณ"></textarea>
+            </div>
+
+            <!-- การยอมรับเงื่อนไข -->
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="terms" required>
+                <label class="form-check-label" for="terms">
+                    ฉันยอมรับเงื่อนไขและข้อกำหนด
+                </label>
+            </div>
+
+            <!-- ปุ่มส่ง -->
+            <button type="submit" class="btn btn-primary w-100">สมัครสมาชิก</button>
+        </form>
+    </div>
+
+    <!-- ลิงก์ไปที่ Bootstrap 5 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<body>
+	<h1>พรชัย ศรีลาดเลา(ฟลุ๊ค)</h1>
+<hr>
+<h1>การสร้างฟอร์มรับข้อมูล AI----CHAT GPT</h1>
+
+</body>
+</html>
